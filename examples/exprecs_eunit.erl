@@ -1,8 +1,6 @@
 -module(exprecs_eunit).
 -include_lib("eunit/include/eunit.hrl").
 
--export([module_test/0]).
-
 
 module_test() ->
     M = test_exprecs,

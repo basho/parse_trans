@@ -3,5 +3,5 @@
 
 f(X) ->
     [fun(_) ->
-	     erlang:now()
-     end || {Y1,Y2} <- [{1,a},{2,b}]].
+        os:timestamp()
+    end || {Y1,Y2} <- [{1,a},{2,b}]].
